@@ -36,10 +36,10 @@ while time.time() - start_time < timeout:
             print("Execution completed! Attempting submission...", flush=True)
             submit_res = api.competition_submit_code(
                 file_name='submission.csv',
-                message='Percentile-adaptive sibling-constrained tracker with gap closing and interpolation (Version 26)',
+                message='Percentile-adaptive sibling-constrained tracker with gap closing and short track filtering (Version 27)',
                 competition='biohub-cell-tracking-during-development',
                 kernel=kernel,
-                kernel_version=26
+                kernel_version=27
             )
             print("Submission successful! Response:", submit_res, flush=True)
             if hasattr(submit_res, 'message'):
