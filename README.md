@@ -13,7 +13,7 @@ Our pipeline progressed from a baseline Hungarian matching tracker to a robust, 
 | **V20 / V22** | **0.629** | Baseline Difference of Gaussians (DoG) detector + frame-to-frame Hungarian matching. |
 | **V24** | **0.633** | Integrated **Sibling constraints** ($\le 5.0$ µm) for mitosis splitting to filter out false positive division links. |
 | **V25** | **0.658** | Added **Robust 99th-percentile adaptive thresholding** to prevent single outlier hyper-bright spots from suppressing cell detections. |
-| **V26** | **0.672** | Implemented **Bipartite Gap-Closing with linear position interpolation** to stitch together tracks broken by temporary cell detection dropouts. |
+| **V26** | **0.642** | Implemented **Bipartite Gap-Closing with linear position interpolation** to stitch together tracks broken by temporary cell detection dropouts. |
 | **V27** | **0.694** | Added **Short track noise filtering** (pruning isolated components lasting <= 2 frames) to eliminate false positive lineage detections. |
 
 ---
