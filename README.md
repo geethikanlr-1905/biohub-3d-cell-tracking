@@ -14,7 +14,7 @@ Our pipeline progressed from a baseline Hungarian matching tracker to a robust, 
 | **V24** | **0.633** | Integrated **Sibling constraints** ($\le 5.0$ µm) for mitosis splitting to filter out false positive division links. |
 | **V25** | **0.635** | Added **Robust 99th-percentile adaptive thresholding** to prevent single outlier hyper-bright spots from suppressing cell detections. |
 | **V26** | **0.642** | Implemented **Bipartite Gap-Closing with linear position interpolation** to stitch together tracks broken by temporary cell detection dropouts. |
-| **V27** | **Pending** | Added **Short track noise filtering** (pruning isolated components lasting <= 2 frames) to eliminate false positive lineage detections. |
+| **V27** | **0.650** | Added **Short track noise filtering** (pruning isolated components lasting <= 2 frames) to eliminate false positive lineage detections. |
 
 ---
 
